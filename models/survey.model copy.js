@@ -7,7 +7,7 @@ class SurveyModel extends Model {
 		super();
 		this.captcha = null;
 	}
-	/*Function to get Survey*/
+	/*Function to get Survey from the server*/
 	async getSurvey() {
 		let response_data 	    = {status: false, result: [], err: null};
 		
