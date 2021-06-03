@@ -44,7 +44,7 @@ class SurveyModel extends Model {
 		await this.executeQuery(insert_survey_query);
 	}
 
-	// supply the logic for each function:
+	// supply the logic for each function challenge
 	generateCaptcha(){
 		return this.captcha;
 	}
